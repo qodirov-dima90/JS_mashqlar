@@ -1,0 +1,53 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+.title{
+    color: brown;
+    font-size: 500;
+    text-align: center;
+
+}
+
+.actions{
+    background-color: chocolate;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.task-input{
+    margin: 7px;
+    width: 80%;
+    height: 30px;
+    border: solid blue 2px;
+    border-radius: 5px;
+}
+
+.create-task-btn{
+    height: 30px;
+    background-color: rgb(231, 245, 231);
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+}
+.list{
+
+    padding: 5px;
+}
+.list__item{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 0px 10px;
+    background-color: burlywood;
+    color:black ;
+}
+
+.list__item-checkbox{
+    margin-right: 8px;
+}
